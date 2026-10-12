@@ -1,9 +1,11 @@
 # Trajectron++ CPU dependency container
 
 This directory provides the Docker environment for the author's `int_ee`
-checkpoint 12. Its scope is dependencies, imports and checkpoint/model
-initialization. G1 data adaptation, experiment inference and training are outside
-this implementation.
+checkpoint 12. The Docker image provides dependencies, imports and checkpoint/model
+initialization. G1 adaptation and inference run from the read-only source mount;
+see [the G1 inference README](../experiments/g1/README.md) for data processing,
+visualization, test results and the `run_inference.py` / `run_adapter_tests.py`
+launchers. Training remains outside this implementation.
 
 ## Source and generated files
 
