@@ -1,0 +1,5 @@
+*
+!Dockerfile
+!requirements.lock
+!verify_runtime.py
+!.dockerignore

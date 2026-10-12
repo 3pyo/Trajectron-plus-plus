@@ -1,0 +1,5 @@
+logs/
+results/
+artifacts/
+backups/
+__pycache__/
